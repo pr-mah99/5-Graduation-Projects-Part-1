@@ -1,0 +1,27 @@
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\bin\Release\Point of  Sale Software System.exe.config
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\bin\Release\Point of  Sale Software System.exe
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\bin\Release\Point of  Sale Software System.pdb
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\bin\Release\Point of  Sale Software System.xml
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\bin\Release\AForge.dll
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\bin\Release\AForge.Video.dll
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\bin\Release\AForge.Video.DirectShow.dll
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\bin\Release\Bytescout.BarCodeReader.dll
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\bin\Release\QRCoder.dll
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\bin\Release\DirectShowLib-2005.dll
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\bin\Release\KeepAutomation.Barcode.Windows.dll
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\obj\Release\Point of  Sale Software System.vbproj.AssemblyReference.cache
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\obj\Release\Point_of__Sale_Software_System.About.resources
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\obj\Release\Point_of__Sale_Software_System.Buy.resources
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\obj\Release\Point_of__Sale_Software_System.Login.resources
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\obj\Release\Point_of__Sale_Software_System.Main.resources
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\obj\Release\Point_of__Sale_Software_System.Resources.resources
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\obj\Release\Point_of__Sale_Software_System.products.resources
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\obj\Release\Point_of__Sale_Software_System.Splash.resources
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\obj\Release\Point_of__Sale_Software_System.Store.resources
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\obj\Release\Point_of__Sale_Software_System.Total.resources
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\obj\Release\Point of  Sale Software System.vbproj.GenerateResource.cache
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\obj\Release\Point of  Sale Software System.vbproj.CoreCompileInputs.cache
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\obj\Release\Point of.45B21919.Up2Date
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\obj\Release\Point of  Sale Software System.exe
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\obj\Release\Point of  Sale Software System.xml
+G:\0-source\repos\Point of  Sale Software System\Point of  Sale Software System\obj\Release\Point of  Sale Software System.pdb

@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\0-source\\repos\\HR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05DB8D76-BB58-47EA-88D2-72B00B502A58}|HR\\HR.vbproj|g:\\0-source\\repos\\hr\\hr\\main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{05DB8D76-BB58-47EA-88D2-72B00B502A58}|HR\\HR.vbproj|solutionrelative:hr\\main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DB8D76-BB58-47EA-88D2-72B00B502A58}|HR\\HR.vbproj|g:\\0-source\\repos\\hr\\hr\\main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{05DB8D76-BB58-47EA-88D2-72B00B502A58}|HR\\HR.vbproj|solutionrelative:hr\\main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|HR||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DB8D76-BB58-47EA-88D2-72B00B502A58}|HR\\HR.vbproj|g:\\0-source\\repos\\hr\\hr\\about.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{05DB8D76-BB58-47EA-88D2-72B00B502A58}|HR\\HR.vbproj|solutionrelative:hr\\about.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DB8D76-BB58-47EA-88D2-72B00B502A58}|HR\\HR.vbproj|g:\\0-source\\repos\\hr\\hr\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|8998e48e-b89a-4034-b66e-353d8c1fdc2e"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.vb",
+              "DocumentMoniker": "G:\\0-source\\repos\\HR\\HR\\Main.vb",
+              "RelativeDocumentMoniker": "HR\\Main.vb",
+              "ToolTip": "G:\\0-source\\repos\\HR\\HR\\Main.vb",
+              "RelativeToolTip": "HR\\Main.vb",
+              "ViewState": "AQIAACwAAAAAAAAAAADwvzkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-26T03:47:06.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.vb [Design]",
+              "DocumentMoniker": "G:\\0-source\\repos\\HR\\HR\\Main.vb",
+              "RelativeDocumentMoniker": "HR\\Main.vb",
+              "ToolTip": "G:\\0-source\\repos\\HR\\HR\\Main.vb [Design]",
+              "RelativeToolTip": "HR\\Main.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-26T03:47:05.104Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HR",
+              "DocumentMoniker": "G:\\0-source\\repos\\HR\\HR\\HR.vbproj",
+              "RelativeDocumentMoniker": "HR\\HR.vbproj",
+              "ToolTip": "G:\\0-source\\repos\\HR\\HR\\HR.vbproj",
+              "RelativeToolTip": "HR\\HR.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-26T03:47:00.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "About.vb [Design]",
+              "DocumentMoniker": "G:\\0-source\\repos\\HR\\HR\\About.vb",
+              "RelativeDocumentMoniker": "HR\\About.vb",
+              "ToolTip": "G:\\0-source\\repos\\HR\\HR\\About.vb [Design]",
+              "RelativeToolTip": "HR\\About.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-26T03:44:33.328Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

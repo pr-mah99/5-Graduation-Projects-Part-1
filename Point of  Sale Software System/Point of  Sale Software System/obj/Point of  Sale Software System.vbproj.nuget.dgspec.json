@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\0-source\\repos\\Point of  Sale Software System\\Point of  Sale Software System\\Point of  Sale Software System.vbproj": {}
+  },
+  "projects": {
+    "G:\\0-source\\repos\\Point of  Sale Software System\\Point of  Sale Software System\\Point of  Sale Software System.vbproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\0-source\\repos\\Point of  Sale Software System\\Point of  Sale Software System\\Point of  Sale Software System.vbproj",
+        "projectName": "Point of  Sale Software System",
+        "projectPath": "G:\\0-source\\repos\\Point of  Sale Software System\\Point of  Sale Software System\\Point of  Sale Software System.vbproj",
+        "packagesPath": "C:\\Users\\pr_mah99\\.nuget\\packages\\",
+        "outputPath": "G:\\0-source\\repos\\Point of  Sale Software System\\Point of  Sale Software System\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pr_mah99\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "AForge": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "AForge.Video": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "AForge.Video.DirectShow": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Bytescout.BarCode.Reader": {
+              "target": "Package",
+              "version": "[12.0.1.2142, )"
+            },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.4.3, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

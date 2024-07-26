@@ -1,0 +1,21 @@
+G:\0-source\repos\Lost Thing Managment System\Lost Thing Managment System\bin\Release\Lost Thing Managment System.exe.config
+G:\0-source\repos\Lost Thing Managment System\Lost Thing Managment System\bin\Release\Lost Thing Managment System.exe
+G:\0-source\repos\Lost Thing Managment System\Lost Thing Managment System\bin\Release\Lost Thing Managment System.pdb
+G:\0-source\repos\Lost Thing Managment System\Lost Thing Managment System\bin\Release\Lost Thing Managment System.xml
+G:\0-source\repos\Lost Thing Managment System\Lost Thing Managment System\bin\Release\DGV Printer.dll
+G:\0-source\repos\Lost Thing Managment System\Lost Thing Managment System\obj\Release\Lost Thing Managment System.vbproj.AssemblyReference.cache
+G:\0-source\repos\Lost Thing Managment System\Lost Thing Managment System\obj\Release\Lost_Thing_Managment_System.About.resources
+G:\0-source\repos\Lost Thing Managment System\Lost Thing Managment System\obj\Release\Lost_Thing_Managment_System.About_Project.resources
+G:\0-source\repos\Lost Thing Managment System\Lost Thing Managment System\obj\Release\Lost_Thing_Managment_System.Login.resources
+G:\0-source\repos\Lost Thing Managment System\Lost Thing Managment System\obj\Release\Lost_Thing_Managment_System.Lose.resources
+G:\0-source\repos\Lost Thing Managment System\Lost Thing Managment System\obj\Release\Lost_Thing_Managment_System.Main.resources
+G:\0-source\repos\Lost Thing Managment System\Lost Thing Managment System\obj\Release\Lost_Thing_Managment_System.Resources.resources
+G:\0-source\repos\Lost Thing Managment System\Lost Thing Managment System\obj\Release\Lost_Thing_Managment_System.Show_all.resources
+G:\0-source\repos\Lost Thing Managment System\Lost Thing Managment System\obj\Release\Lost_Thing_Managment_System.Splash.resources
+G:\0-source\repos\Lost Thing Managment System\Lost Thing Managment System\obj\Release\Lost_Thing_Managment_System.Total.resources
+G:\0-source\repos\Lost Thing Managment System\Lost Thing Managment System\obj\Release\Lost Thing Managment System.vbproj.GenerateResource.cache
+G:\0-source\repos\Lost Thing Managment System\Lost Thing Managment System\obj\Release\Lost Thing Managment System.vbproj.CoreCompileInputs.cache
+G:\0-source\repos\Lost Thing Managment System\Lost Thing Managment System\obj\Release\Lost Thi.000CE0BD.Up2Date
+G:\0-source\repos\Lost Thing Managment System\Lost Thing Managment System\obj\Release\Lost Thing Managment System.exe
+G:\0-source\repos\Lost Thing Managment System\Lost Thing Managment System\obj\Release\Lost Thing Managment System.xml
+G:\0-source\repos\Lost Thing Managment System\Lost Thing Managment System\obj\Release\Lost Thing Managment System.pdb

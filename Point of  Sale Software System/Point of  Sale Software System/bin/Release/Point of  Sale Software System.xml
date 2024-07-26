@@ -1,0 +1,183 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Point of  Sale Software System
+</name>
+</assembly>
+<members>
+<member name="T:Point_of__Sale_Software_System.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.My.Resources.Resources.icons8_add_user_group_man_woman_64px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.My.Resources.Resources.icons8_bank_40px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.My.Resources.Resources.icons8_billing_machine_100px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.My.Resources.Resources.icons8_buy_100px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.My.Resources.Resources.icons8_buy_100px1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.My.Resources.Resources.icons8_buy_100px2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.My.Resources.Resources.icons8_close_window_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.My.Resources.Resources.icons8_customer_50px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.My.Resources.Resources.icons8_login_50px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.My.Resources.Resources.icons8_price_tag_400px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.My.Resources.Resources.icons8_product_80px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.My.Resources.Resources.icons8_qr_code_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.My.Resources.Resources.icons8_reseller_320px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.My.Resources.Resources.icons8_sale_480px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.My.Resources.Resources.icons8_Season_Sale_480px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.My.Resources.Resources.icons8_shopping_bags_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.My.Resources.Resources.icons8_shutdown_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.My.Resources.Resources.icons8_total_sales_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.My.Resources.Resources.point">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.DSCamCapture.IsConnected">
+ <summary>
+ Indicates if this instance is currently connected to a device.
+ </summary>
+</member>
+<member name="P:Point_of__Sale_Software_System.DSCamCapture.IsRunning">
+ <summary>
+ Indicates if the capture graph is running or paused/stoped.
+ </summary>
+</member>
+<member name="T:Point_of__Sale_Software_System.DSCamCapture.FrameSizes">
+ <summary>
+ Enum of common video frame sizes. Used to set the (frameSize) parameter of the (ConnectToDevice) function.
+ </summary>
+</member>
+<member name="M:Point_of__Sale_Software_System.DSCamCapture.ConnectToDevice(System.Int32,System.Int32,System.Drawing.Size,Point_of__Sale_Software_System.DSCamCapture.FrameSizes,System.IntPtr)">
+ <summary>
+ Connects this instance of the Capture class to the specified capture device index.
+ </summary>
+ <param name="deviceIndex">The Zero Based Index Of Capture Device To Connect To.</param>
+ <param name="frameRate">The Capture Rate. Equivilant to FPS.</param>
+ <param name="windowSize">The size of the visible video window.</param>
+ <param name="frameSize">The size used for the video frames. This will also be the size images are saved as.</param>
+ <param name="hParent">A Handle To The Parent Window.</param>
+</member>
+<member name="M:Point_of__Sale_Software_System.DSCamCapture.ResizeWindow(System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Used to resize and/or change the location of the visible video window.
+ </summary>
+ <param name="xLoc">The new X location.</param>
+ <param name="yLoc">The new Y location.</param>
+ <param name="sWidth">The new Width of the window.</param>
+ <param name="sHeight">The new Height of the window.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Point_of__Sale_Software_System.DSCamCapture.GetCaptureDevices">
+ <summary>
+ Returns a string array containing all video capture device names in the device index order that are currently available.
+ </summary>
+</member>
+<member name="M:Point_of__Sale_Software_System.DSCamCapture.Start">
+ <summary>
+ Starts the capture graph.
+ </summary>
+</member>
+<member name="M:Point_of__Sale_Software_System.DSCamCapture.Pause">
+ <summary>
+ Pauses the capture graph. Running the graph takes up a lot of resources. (Pause) it when it isn't needed at the time and (Start) it when needed again.
+ </summary>
+</member>
+<member name="M:Point_of__Sale_Software_System.DSCamCapture.SaveCurrentFrame(System.String,System.Drawing.Imaging.ImageFormat)">
+ <summary>
+ Saves an image file of the current video frame and passes the captured image to the (capImage) parameter in the (FrameSaved) event.
+ </summary>
+ <param name="strFileName">The full path, name, and extension to save the image as.</param>
+ <param name="iFormat">The image format for saving the file. Make sure the file extension matches.</param>
+</member>
+<member name="M:Point_of__Sale_Software_System.DSCamCapture.GetCurrentFrame">
+ <summary>
+ Gets the current video frame and passes the captured image as the (capImage) parameter in the (FrameCaptured) event.
+ </summary>
+</member>
+</members>
+</doc>

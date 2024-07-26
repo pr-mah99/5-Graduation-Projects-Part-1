@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "GLuhmO+yDME=",
+  "success": true,
+  "projectFilePath": "G:\\0-source\\repos\\Point of  Sale Software System\\Point of  Sale Software System\\Point of  Sale Software System.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pr_mah99\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
+    "C:\\Users\\pr_mah99\\.nuget\\packages\\aforge.video\\2.2.5\\aforge.video.2.2.5.nupkg.sha512",
+    "C:\\Users\\pr_mah99\\.nuget\\packages\\aforge.video.directshow\\2.2.5\\aforge.video.directshow.2.2.5.nupkg.sha512",
+    "C:\\Users\\pr_mah99\\.nuget\\packages\\bytescout.barcode.reader\\12.0.1.2142\\bytescout.barcode.reader.12.0.1.2142.nupkg.sha512",
+    "C:\\Users\\pr_mah99\\.nuget\\packages\\qrcoder\\1.4.3\\qrcoder.1.4.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,21 @@
+G:\0-source\repos\Student Evaluation System\Student Evaluation System\bin\Release\Student Evaluation System.exe.config
+G:\0-source\repos\Student Evaluation System\Student Evaluation System\bin\Release\Student Evaluation System.exe
+G:\0-source\repos\Student Evaluation System\Student Evaluation System\bin\Release\Student Evaluation System.pdb
+G:\0-source\repos\Student Evaluation System\Student Evaluation System\bin\Release\Student Evaluation System.xml
+G:\0-source\repos\Student Evaluation System\Student Evaluation System\obj\Release\Student Evaluation System.vbproj.AssemblyReference.cache
+G:\0-source\repos\Student Evaluation System\Student Evaluation System\obj\Release\Student_Evaluation_System.About.resources
+G:\0-source\repos\Student Evaluation System\Student Evaluation System\obj\Release\Student_Evaluation_System.Evaluation.resources
+G:\0-source\repos\Student Evaluation System\Student Evaluation System\obj\Release\Student_Evaluation_System.Login.resources
+G:\0-source\repos\Student Evaluation System\Student Evaluation System\obj\Release\Student_Evaluation_System.Main.resources
+G:\0-source\repos\Student Evaluation System\Student Evaluation System\obj\Release\Student_Evaluation_System.Show_All.resources
+G:\0-source\repos\Student Evaluation System\Student Evaluation System\obj\Release\Student_Evaluation_System.Splash.resources
+G:\0-source\repos\Student Evaluation System\Student Evaluation System\obj\Release\Student_Evaluation_System.Resources.resources
+G:\0-source\repos\Student Evaluation System\Student Evaluation System\obj\Release\Student_Evaluation_System.Student.resources
+G:\0-source\repos\Student Evaluation System\Student Evaluation System\obj\Release\Student_Evaluation_System.Subject.resources
+G:\0-source\repos\Student Evaluation System\Student Evaluation System\obj\Release\Student_Evaluation_System.Teacher.resources
+G:\0-source\repos\Student Evaluation System\Student Evaluation System\obj\Release\Student_Evaluation_System.Users.resources
+G:\0-source\repos\Student Evaluation System\Student Evaluation System\obj\Release\Student Evaluation System.vbproj.GenerateResource.cache
+G:\0-source\repos\Student Evaluation System\Student Evaluation System\obj\Release\Student Evaluation System.vbproj.CoreCompileInputs.cache
+G:\0-source\repos\Student Evaluation System\Student Evaluation System\obj\Release\Student Evaluation System.exe
+G:\0-source\repos\Student Evaluation System\Student Evaluation System\obj\Release\Student Evaluation System.xml
+G:\0-source\repos\Student Evaluation System\Student Evaluation System\obj\Release\Student Evaluation System.pdb
