@@ -18,28 +18,6 @@ Public Class Employee_Manage
             cn.Close()
         End Try
     End Sub
-    Private Sub fillItemName_department(sql As String, ItemName As ComboBox)
-        ItemName.Items.Clear()
-        Dim adp As New SqlClient.SqlDataAdapter(sql, cn)
-        Dim ds As New DataSet
-        adp.Fill(ds)
-        Dim dt = ds.Tables(0)
-        For i = 0 To dt.Rows.Count - 1
-            'combo box نختار اسم الحقل الي نريدة ان يظهر في ال 
-            ItemName.Items.Add(dt.Rows(i).Item("department_name"))
-        Next
-    End Sub
-    Private Sub fillItemName_job(sql As String, ItemName As ComboBox)
-        ItemName.Items.Clear()
-        Dim adp As New SqlClient.SqlDataAdapter(sql, cn)
-        Dim ds As New DataSet
-        adp.Fill(ds)
-        Dim dt = ds.Tables(0)
-        For i = 0 To dt.Rows.Count - 1
-            'combo box نختار اسم الحقل الي نريدة ان يظهر في ال 
-            ItemName.Items.Add(dt.Rows(i).Item("job_name"))
-        Next
-    End Sub
     Private Sub img()
         Try
             Dim cmd As New SqlCommand("select image from Employee where id='" & TextBox1.Text & "'", cn)
@@ -75,18 +53,13 @@ Public Class Employee_Manage
         End Try
     End Sub
 
-    Private Sub Employee_Manage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        fillItemName_job("select * from job", ComboBox1)
-        fillItemName_department("select * from Department", ComboBox2)
-    End Sub
-
     Private Sub Employee_Manage_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
         Main.Button2.PerformClick()
     End Sub
 
     Private Sub TextBox1_TextChanged_1(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
         Try
-            Dim sql As String = "select fname ,lname ,born_in,city,mobile,email,work_type,Graduate,Scientific_title,salary,job_name,department_name,Employee.department_id,Employee.job_id from Employee,job,department where department.department_id=Employee.department_id and job.job_id=Employee.job_id and id=" & TextBox1.Text
+            Dim sql As String = "select fname ,lname ,born_in,city,mobile,email,work_type,Graduate,Scientific_title,salary from Employee where id=" & TextBox1.Text
             Dim sda As New SqlDataAdapter(sql, cn)
             Dim com As SqlCommand = New SqlCommand(sql, cn)
             img()
@@ -105,11 +78,9 @@ Public Class Employee_Manage
                 TextBox9.Text = reader(7)
                 TextBox10.Text = reader(8)
                 TextBox11.Text = reader(9)
-                TextBox12.Text = reader(13)
-                TextBox13.Text = reader(12)
-                ComboBox1.Text = reader(10)
-                ComboBox2.Text = reader(11)
                 cn.Close()
+            Else
+                clear()
             End If
 
         Catch ex As Exception
@@ -118,6 +89,59 @@ Public Class Employee_Manage
         Finally
             cn.Close()
         End Try
+        If TextBox1.Text = "" Then
+            Button6.Enabled = False
+        Else
+            Button6.Enabled = True
+        End If
+        total()
+    End Sub
+    Private Sub clear()
+        TextBox2.Clear()
+        TextBox3.Clear()
+        TextBox4.Clear()
+        TextBox5.Clear()
+        TextBox6.Clear()
+        TextBox7.Clear()
+        TextBox8.Clear()
+        TextBox9.Clear()
+        TextBox10.Clear()
+        TextBox11.Clear()
+    End Sub
+
+    Private Sub total()
+        Dim year As Integer = DateTime.Now.Year
+        Dim firstDayOfYear As New DateTime(year, 1, 1) '2023/1/1
+
+        Dim daysInMonth As Integer = DateTime.DaysInMonth(year, 12)
+        Dim lastDayOfYear As New DateTime(year, 12, daysInMonth) '2023/12/30
+
+        Dim bonus = 3 'العلاوات المستحقة في السنة 3
+        Dim previous_bonus As New Integer 'العلاوة السابقة
+        Dim bonus_due As New Integer 'العلاوة المستحقة
+        Dim Thank_books As New Integer 'كتب الشكر والتقدير
+
+        Dim sql_Acknowledgments As String = "select count(*) from Acknowledgments WHERE emp='" + TextBox1.Text + "' And date BETWEEN '" + firstDayOfYear + "' and '" + lastDayOfYear + "'"
+        Dim sql2 As String = "select count(*) from Upgrades WHERE employee_id='" + TextBox1.Text + "' And date BETWEEN '" + firstDayOfYear + "' and '" + lastDayOfYear + "'"
+        Dim sqlbonus As String = "select count(*) from Bonuses WHERE employee_id='" + TextBox1.Text + "' And date BETWEEN '" + firstDayOfYear + "' and '" + lastDayOfYear + "'"
+
+        Dim command1 As New SqlCommand(sql_Acknowledgments, cn)
+        Dim command2 As New SqlCommand(sql2, cn)
+        Dim command_bonus As New SqlCommand(sqlbonus, cn)
+
+        cn.Open()
+        Thank_books = Convert.ToInt32(command1.ExecuteScalar().ToString()) 'كتب الشكر والتقدير   
+        previous_bonus = Convert.ToInt32(command_bonus.ExecuteScalar().ToString()) 'العلاوات السابقة
+        bonus_due = bonus - previous_bonus 'العلاوة المستحقة = العلاوة السابقة - كل العلاوات
+        cn.Close()
+
+        Dim x = "العلاوة السابقة : " + previous_bonus.ToString + " / العلاوة المستحقة : " + bonus_due.ToString
+        Dim r1 = Thank_books - previous_bonus
+        Dim r2 = Thank_books - previous_bonus
+        Dim total = "العلاوة السابقة - عدد كتب شكر وتقدير :" + r1.ToString + " / ترفيعات - عدد كتب شكر وتقدير :" + r2.ToString
+
+        Label2.Text = x.ToString
+        Label1.Text = total.ToString
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
@@ -146,27 +170,21 @@ Public Class Employee_Manage
     End Sub
 
     Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
-        If ComboBox1.Text = "" Then
-            MsgBox("عليك ان تحتار العمل", MsgBoxStyle.Information, "!!")
-            ComboBox1.Focus()
-        ElseIf ComboBox2.Text = "" Then
-            MsgBox("يجب اختيار القسم", MsgBoxStyle.Information, "!!")
-            ComboBox2.Focus()
+        If TextBox2.Text = "" Then
+            MsgBox("أدخل اسم الموظف اولا", MsgBoxStyle.Information, "!!")
+            TextBox2.Focus()
         Else
             id_max()
             Try
-                Dim ms As New MemoryStream
-                PictureBox1.Image.Save(ms, PictureBox1.Image.RawFormat)
-                Dim arrPic() As Byte = ms.GetBuffer()
-                Dim sql As String = "INSERT INTO Employee (id,fname,lname,born_in,city,mobile,email,work_type,Graduate,Scientific_title,salary,image,job_id,department_id)  " _
-            & "VALUES ('" & TextBox1.Text & "','" & TextBox2.Text & "','" & TextBox3.Text & "','" & TextBox4.Text & "','" & TextBox5.Text & "','" & TextBox6.Text & "','" & TextBox7.Text & "','" & TextBox8.Text & "','" & TextBox9.Text & "','" & TextBox10.Text & "','" & TextBox11.Text & "','@emPic','" & TextBox12.Text & "','" & TextBox13.Text & "')"
+                Dim sql As String = "INSERT INTO Employee (id,fname,lname,born_in,city,mobile,email,work_type,Graduate,Scientific_title,salary)  " _
+            & "VALUES ('" & TextBox1.Text & "','" & TextBox2.Text & "','" & TextBox3.Text & "','" & TextBox4.Text & "','" & TextBox5.Text & "','" & TextBox6.Text & "','" & TextBox7.Text & "','" & TextBox8.Text & "','" & TextBox9.Text & "','" & TextBox10.Text & "','" & TextBox11.Text & "')"
                 Dim sda As New SqlDataAdapter(sql, cn)
                 Dim cmd As New SqlCommand(sql, cn)
                 With cmd
-                    .Parameters.AddWithValue("@emPic", SqlDbType.Image).Value = ms.ToArray
                     cn.Open()
                     .ExecuteNonQuery()
                     cn.Close()
+                    upate_image()
                     MsgBox("تم الادخال بنجاح", MsgBoxStyle.Information, "!!")
                 End With
             Catch ex As Exception
@@ -180,7 +198,7 @@ Public Class Employee_Manage
 
     Private Sub Button3_Click_1(sender As Object, e As EventArgs) Handles Button3.Click
         Try
-            Dim sql As String = "Update Employee set fname='" & TextBox2.Text & "',lname='" & TextBox3.Text & "',born_in='" & TextBox4.Text & "',city='" & TextBox5.Text & "',mobile='" & TextBox6.Text & "',email='" & TextBox7.Text & "',work_type='" & TextBox8.Text & "',Graduate='" & TextBox9.Text & "',Scientific_title='" & TextBox10.Text & "',salary='" & TextBox11.Text & "',job_id='" & TextBox12.Text & "',department_id='" & TextBox13.Text & "'where id='" & TextBox1.Text & "'"
+            Dim sql As String = "Update Employee set fname='" & TextBox2.Text & "',lname='" & TextBox3.Text & "',born_in='" & TextBox4.Text & "',city='" & TextBox5.Text & "',mobile='" & TextBox6.Text & "',email='" & TextBox7.Text & "',work_type='" & TextBox8.Text & "',Graduate='" & TextBox9.Text & "',Scientific_title='" & TextBox10.Text & "',salary='" & TextBox11.Text & "' where id='" & TextBox1.Text & "'"
             Dim sda As New SqlDataAdapter(sql, cn)
             Dim cmd As New SqlCommand(sql, cn)
             cn.Open()
@@ -193,32 +211,6 @@ Public Class Employee_Manage
             cn.Close()
         End Try
     End Sub
-
-    Private Sub ComboBox1_SelectedIndexChanged_1(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
-        Try
-            Dim sql2 As String = "Select job_id From job WHERE job_name='" & ComboBox1.Text & "'"
-            Dim command As New SqlCommand(sql2, cn)
-            cn.Open()
-            TextBox12.Text = command.ExecuteScalar().ToString()
-            cn.Close()
-        Catch ex As Exception
-        Finally
-            cn.Close()
-        End Try
-    End Sub
-    Private Sub ComboBox2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox2.SelectedIndexChanged
-        Try
-            Dim sql2 As String = "Select department_id From Department WHERE department_name='" & ComboBox2.Text & "'"
-            Dim command As New SqlCommand(sql2, cn)
-            cn.Open()
-            TextBox13.Text = command.ExecuteScalar().ToString()
-            cn.Close()
-        Catch ex As Exception
-        Finally
-            cn.Close()
-        End Try
-    End Sub
-
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         With OpenFileDialog1
             'المكان الافتراضي
@@ -230,5 +222,25 @@ Public Class Employee_Manage
         If OpenFileDialog1.ShowDialog = DialogResult.OK Then
             PictureBox1.Image = Image.FromFile(OpenFileDialog1.FileName)
         End If
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        TextBox1.Clear()
+        TextBox2.Clear()
+        TextBox3.Clear()
+        TextBox4.Clear()
+        TextBox5.Clear()
+        TextBox6.Clear()
+        TextBox7.Clear()
+        TextBox8.Clear()
+        TextBox9.Clear()
+        TextBox10.Clear()
+        TextBox11.Clear()
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        Acknowledgments.Show()
+        Acknowledgments.TextBox2.Text = TextBox1.Text
+        Acknowledgments.ComboBox1.Text = TextBox2.Text
     End Sub
 End Class

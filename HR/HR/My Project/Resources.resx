@@ -118,34 +118,58 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="icons8_unit_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\btn_icon\icons8_unit_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icons8_worker_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\btn_icon\icons8_worker_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8_curriculum_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\btn_icon\icons8_curriculum_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8_medal_first_place_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\btn_icon\icons8_medal_first_place_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8_total_sales_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\btn_icon\icons8_total_sales_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8_person_200px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\icons8_person_200px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8_unit_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\btn_icon\icons8_unit_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8_shutdown_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\btn_icon\icons8_shutdown_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8_home_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\btn_icon\icons8_home_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8_medal_first_place_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\btn_icon\icons8_medal_first_place_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_data_backup_45px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\btn_icon\icons8_data_backup_45px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_total_sales_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\btn_icon\icons8_total_sales_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_handcuffs_480px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\btn_icon\icons8_handcuffs_480px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="what-are-employee-rewards-and-recognition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\what-are-employee-rewards-and-recognition.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8_help_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\btn_icon\icons8_help_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8_edit_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\btn_icon\icons8_edit_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_restore_45px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\btn_icon\icons8_restore_45px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_home_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\btn_icon\icons8_home_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_person_200px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\icons8_person_200px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_add_new_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\btn_icon\icons8_add_new_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_curriculum_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\btn_icon\icons8_curriculum_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rewards-and-Recognition-Ideas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Rewards-and-Recognition-Ideas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8_event_declined_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\btn_icon\icons8_event_declined_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_Delete_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\btn_icon\icons8_Delete_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

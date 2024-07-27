@@ -14,11 +14,14 @@ C:\Users\pr_mah99\source\repos\HR\HR\obj\Debug\HR.pdb
 C:\Users\pr_mah99\source\repos\HR\HR\obj\Debug\HR.Main.resources
 C:\Users\pr_mah99\source\repos\HR\HR\obj\Debug\HR.Total.resources
 C:\Users\pr_mah99\source\repos\HR\HR\obj\Debug\HR.About.resources
-C:\Users\pr_mah99\source\repos\HR\HR\obj\Debug\HR.Department.resources
 C:\Users\pr_mah99\source\repos\HR\HR\obj\Debug\HR.Employee.resources
 C:\Users\pr_mah99\source\repos\HR\HR\obj\Debug\HR.Home.resources
-C:\Users\pr_mah99\source\repos\HR\HR\obj\Debug\HR.Job.resources
-C:\Users\pr_mah99\source\repos\HR\HR\obj\Debug\HR.Reward.resources
-C:\Users\pr_mah99\source\repos\HR\HR\obj\Debug\HR.Attendance_and_Departure.resources
 C:\Users\pr_mah99\source\repos\HR\HR\obj\Debug\HR.Employee_Manage.resources
-C:\Users\pr_mah99\source\repos\HR\HR\obj\Debug\HR.Show_A_D.resources
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Debug\HR.vbproj.SuggestedBindingRedirects.cache
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Debug\HR.Security.resources
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Debug\HR.Show_info.resources
+C:\Users\pr_mah99\source\repos\HR\HR\bin\Debug\DGV Printer.dll
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Debug\HR.vbproj.CopyComplete
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Debug\HR.Upgrades.resources
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Debug\HR.Bonuses.resources
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Debug\HR.Acknowledgments.resources

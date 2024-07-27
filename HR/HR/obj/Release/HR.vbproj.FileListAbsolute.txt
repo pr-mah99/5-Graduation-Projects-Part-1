@@ -1,24 +1,53 @@
-G:\0-source\repos\HR\HR\bin\Release\HR.exe.config
-G:\0-source\repos\HR\HR\bin\Release\HR.exe
-G:\0-source\repos\HR\HR\bin\Release\HR.pdb
-G:\0-source\repos\HR\HR\bin\Release\HR.xml
-G:\0-source\repos\HR\HR\obj\Release\HR.vbproj.AssemblyReference.cache
-G:\0-source\repos\HR\HR\obj\Release\HR.About.resources
-G:\0-source\repos\HR\HR\obj\Release\HR.Attendance_and_Departure.resources
-G:\0-source\repos\HR\HR\obj\Release\HR.Department.resources
-G:\0-source\repos\HR\HR\obj\Release\HR.Employee.resources
-G:\0-source\repos\HR\HR\obj\Release\HR.Employee_Manage.resources
-G:\0-source\repos\HR\HR\obj\Release\HR.Home.resources
-G:\0-source\repos\HR\HR\obj\Release\HR.Job.resources
-G:\0-source\repos\HR\HR\obj\Release\HR.Main.resources
-G:\0-source\repos\HR\HR\obj\Release\HR.Reward.resources
-G:\0-source\repos\HR\HR\obj\Release\HR.Show_A_D.resources
-G:\0-source\repos\HR\HR\obj\Release\HR.splash.resources
-G:\0-source\repos\HR\HR\obj\Release\HR.login.resources
-G:\0-source\repos\HR\HR\obj\Release\HR.Resources.resources
-G:\0-source\repos\HR\HR\obj\Release\HR.Total.resources
-G:\0-source\repos\HR\HR\obj\Release\HR.vbproj.GenerateResource.cache
-G:\0-source\repos\HR\HR\obj\Release\HR.vbproj.CoreCompileInputs.cache
-G:\0-source\repos\HR\HR\obj\Release\HR.exe
-G:\0-source\repos\HR\HR\obj\Release\HR.xml
-G:\0-source\repos\HR\HR\obj\Release\HR.pdb
+C:\Users\pr_mah99\source\repos\HR\HR\bin\Release\HR.exe.config
+C:\Users\pr_mah99\source\repos\HR\HR\bin\Release\HR.exe
+C:\Users\pr_mah99\source\repos\HR\HR\bin\Release\HR.pdb
+C:\Users\pr_mah99\source\repos\HR\HR\bin\Release\HR.xml
+C:\Users\pr_mah99\source\repos\HR\HR\bin\Release\DGV Printer.dll
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Release\HR.vbproj.AssemblyReference.cache
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Release\HR.vbproj.SuggestedBindingRedirects.cache
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Release\HR.About.resources
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Release\HR.Acknowledgments.resources
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Release\HR.Employee.resources
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Release\HR.Employee_Manage.resources
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Release\HR.Home.resources
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Release\HR.Main.resources
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Release\HR.Upgrades.resources
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Release\HR.Bonuses.resources
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Release\HR.Security.resources
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Release\HR.Show_info.resources
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Release\HR.splash.resources
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Release\HR.login.resources
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Release\HR.Resources.resources
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Release\HR.Total.resources
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Release\HR.vbproj.GenerateResource.cache
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Release\HR.vbproj.CoreCompileInputs.cache
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Release\HR.vbproj.CopyComplete
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Release\HR.exe
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Release\HR.xml
+C:\Users\pr_mah99\source\repos\HR\HR\obj\Release\HR.pdb
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\bin\Release\HR.exe.config
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\bin\Release\HR.exe
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\bin\Release\HR.pdb
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\bin\Release\HR.xml
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\bin\Release\DGV Printer.dll
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\obj\Release\HR.vbproj.AssemblyReference.cache
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\obj\Release\HR.About.resources
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\obj\Release\HR.Acknowledgments.resources
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\obj\Release\HR.Employee.resources
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\obj\Release\HR.Employee_Manage.resources
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\obj\Release\HR.Home.resources
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\obj\Release\HR.Main.resources
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\obj\Release\HR.Upgrades.resources
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\obj\Release\HR.Bonuses.resources
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\obj\Release\HR.Security.resources
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\obj\Release\HR.Show_info.resources
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\obj\Release\HR.splash.resources
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\obj\Release\HR.login.resources
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\obj\Release\HR.Resources.resources
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\obj\Release\HR.Total.resources
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\obj\Release\HR.vbproj.GenerateResource.cache
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\obj\Release\HR.vbproj.CoreCompileInputs.cache
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\obj\Release\HR.vbproj.Up2Date
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\obj\Release\HR.exe
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\obj\Release\HR.xml
+G:\0-source\0-مشاريع تخرج 2023\HR\HR\obj\Release\HR.pdb

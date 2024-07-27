@@ -5,14 +5,12 @@ Public Class Total
         Sql_Show()
     End Sub
     Private Sub Sql_Show()
-        Dim sql As String = "select count(*) from job"
         Dim sql2 As String = "select count(*) from users"
-        Dim sql4 As String = "select count(*) from Department"
+        Dim sql4 As String = "select count(*) from Upgrades"
         Dim sql6 As String = "select count(*) from employee"
-        Dim sql7 As String = "select count(*) from Reward"
+        Dim sql7 As String = "select count(*) from Bonuses"
 
 
-        Dim command As New SqlCommand(sql, cn)
         Dim command2 As New SqlCommand(sql2, cn)
         Dim command4 As New SqlCommand(sql4, cn)
         Dim command6 As New SqlCommand(sql6, cn)
@@ -20,7 +18,6 @@ Public Class Total
 
 
         cn.Open()
-        Label12.Text = command.ExecuteScalar().ToString()
         Label10.Text = command2.ExecuteScalar().ToString()
         Label11.Text = command4.ExecuteScalar().ToString()
         Label13.Text = command6.ExecuteScalar().ToString()

@@ -36,11 +36,12 @@ Partial Class About
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("TanseekModernProArabic-Regular", 25.8!, System.Drawing.FontStyle.Bold)
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(457, 118)
+        Me.Label1.Location = New System.Drawing.Point(208, 126)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(426, 60)
+        Me.Label1.Size = New System.Drawing.Size(845, 60)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "مشروع نظام ادارة الموارد اليشرية"
+        Me.Label1.Text = "ظام ادارة الموارد البشرية والترفيعات والعلاوات الخاصه بجامعة واسط"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label2
         '
@@ -48,7 +49,7 @@ Partial Class About
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("TanseekModernProArabic-Regular", 25.8!, System.Drawing.FontStyle.Bold)
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(967, 405)
+        Me.Label2.Location = New System.Drawing.Point(1014, 392)
         Me.Label2.Name = "Label2"
         Me.Label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.Label2.Size = New System.Drawing.Size(195, 60)
@@ -73,7 +74,7 @@ Partial Class About
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("TanseekModernProArabic-Regular", 35.8!, System.Drawing.FontStyle.Bold)
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(895, 465)
+        Me.Label4.Location = New System.Drawing.Point(925, 469)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(374, 85)
         Me.Label4.TabIndex = 3
@@ -85,11 +86,11 @@ Partial Class About
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("TanseekModernProArabic-Regular", 35.8!, System.Drawing.FontStyle.Bold)
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(209, 512)
+        Me.Label5.Location = New System.Drawing.Point(166, 520)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(252, 85)
+        Me.Label5.Size = New System.Drawing.Size(324, 85)
         Me.Label5.TabIndex = 4
-        Me.Label5.Text = "اسم المشرف"
+        Me.Label5.Text = "م.م اسم المشرف"
         '
         'Label6
         '
@@ -97,7 +98,7 @@ Partial Class About
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("TanseekModernProArabic-Regular", 45.8!, System.Drawing.FontStyle.Bold)
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(639, 207)
+        Me.Label6.Location = New System.Drawing.Point(665, 273)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(111, 108)
         Me.Label6.TabIndex = 5
@@ -107,7 +108,7 @@ Partial Class About
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.MediumSlateBlue
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1418, 729)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)

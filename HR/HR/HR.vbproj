@@ -51,6 +51,9 @@
     <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DGV Printer">
+      <HintPath>Dll\DGV Printer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -82,16 +85,10 @@
     <Compile Include="About.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Attendance and Departure.designer.vb">
-      <DependentUpon>Attendance and Departure.vb</DependentUpon>
+    <Compile Include="Acknowledgments.Designer.vb">
+      <DependentUpon>Acknowledgments.vb</DependentUpon>
     </Compile>
-    <Compile Include="Attendance and Departure.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Department.Designer.vb">
-      <DependentUpon>Department.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Department.vb">
+    <Compile Include="Acknowledgments.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Employee.Designer.vb">
@@ -112,28 +109,34 @@
     <Compile Include="Home.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Job.Designer.vb">
-      <DependentUpon>Job.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Job.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Main.Designer.vb">
       <DependentUpon>Main.vb</DependentUpon>
     </Compile>
     <Compile Include="Main.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Reward.Designer.vb">
-      <DependentUpon>Reward.vb</DependentUpon>
+    <Compile Include="Upgrades.designer.vb">
+      <DependentUpon>Upgrades.vb</DependentUpon>
     </Compile>
-    <Compile Include="Reward.vb">
+    <Compile Include="Upgrades.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Show_A_D.Designer.vb">
-      <DependentUpon>Show_A_D.vb</DependentUpon>
+    <Compile Include="Bonuses.Designer.vb">
+      <DependentUpon>Bonuses.vb</DependentUpon>
     </Compile>
-    <Compile Include="Show_A_D.vb">
+    <Compile Include="Bonuses.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Security.designer.vb">
+      <DependentUpon>Security.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Security.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Show_info.designer.vb">
+      <DependentUpon>Show_info.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Show_info.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="splash.vb">
@@ -177,11 +180,8 @@
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Attendance and Departure.resx">
-      <DependentUpon>Attendance and Departure.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Department.resx">
-      <DependentUpon>Department.vb</DependentUpon>
+    <EmbeddedResource Include="Acknowledgments.resx">
+      <DependentUpon>Acknowledgments.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Employee.resx">
       <DependentUpon>Employee.vb</DependentUpon>
@@ -192,17 +192,20 @@
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Job.resx">
-      <DependentUpon>Job.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Reward.resx">
-      <DependentUpon>Reward.vb</DependentUpon>
+    <EmbeddedResource Include="Upgrades.resx">
+      <DependentUpon>Upgrades.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Show_A_D.resx">
-      <DependentUpon>Show_A_D.vb</DependentUpon>
+    <EmbeddedResource Include="Bonuses.resx">
+      <DependentUpon>Bonuses.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Security.resx">
+      <DependentUpon>Security.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Show_info.resx">
+      <DependentUpon>Show_info.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="splash.resx">
       <DependentUpon>splash.vb</DependentUpon>
@@ -263,6 +266,14 @@
     <None Include="btn_icon\icons8_event_declined_48px.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="img\Rewards-and-Recognition-Ideas.png" />
+    <None Include="img\what-are-employee-rewards-and-recognition.png" />
+    <None Include="btn_icon\icons8_restore_45px.png" />
+    <None Include="btn_icon\icons8_data_backup_45px.png" />
+    <None Include="btn_icon\icons8_handcuffs_480px.png" />
+    <None Include="btn_icon\icons8_add_new_30px.png" />
+    <None Include="btn_icon\icons8_edit_25px.png" />
+    <None Include="btn_icon\icons8_Delete_25px.png" />
     <Content Include="icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

@@ -22,12 +22,37 @@ HR
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:HR.My.Resources.Resources.icons8_add_new_30px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:HR.My.Resources.Resources.icons8_curriculum_48px">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:HR.My.Resources.Resources.icons8_data_backup_45px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_Delete_25px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_edit_25px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:HR.My.Resources.Resources.icons8_event_declined_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_handcuffs_480px">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -52,6 +77,11 @@ HR
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:HR.My.Resources.Resources.icons8_restore_45px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:HR.My.Resources.Resources.icons8_shutdown_48px">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -68,6 +98,16 @@ HR
 </summary>
 </member>
 <member name="P:HR.My.Resources.Resources.icons8_worker_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Rewards_and_Recognition_Ideas">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.what_are_employee_rewards_and_recognition">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
